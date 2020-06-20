@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Nigeria Past Questions For Professionals"

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLighterBg"
+    tools:context=".activities.QuestionActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bmly"/>
+
+    <RelativeLayout
+        android:id="@+id/bmly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        >
+        <Button
+            android:id="@+id/btn_previous"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_button_bg"
+            android:textColor="@color/white"
+            android:text="Previous"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/nav_button_bg"
+            android:paddingHorizontal="30dp"
+            android:textColor="@color/white"
+            android:text="Next"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
