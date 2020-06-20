@@ -7,3 +7,4 @@ I have been building android apps using java for years, and i decided to try out
 * View Binding
 * Jetpack Navigation Components
 * Viewpager2
+![alt text](https://github.com/oluwabajio/Kotlin-Quiz-App/blob/work/Screen%20Shot.png "Logo Title Text 1")
